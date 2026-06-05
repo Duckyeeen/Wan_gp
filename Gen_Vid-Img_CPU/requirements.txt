@@ -1,0 +1,20 @@
+# =====================================================
+# Wan2.1 CPU Optimization Project - Dependencies
+# Dành cho PC CPU-only (không cần GPU)
+# Cài đặt: pip install -r requirements.txt
+# =====================================================
+
+# --- Web UI ---
+gradio>=4.0.0
+
+# --- Tính toán số học (bắt buộc) ---
+numpy>=1.24.0
+
+# --- Giám sát CPU & hệ thống (bắt buộc) ---
+psutil>=5.9.0
+
+# --- PyTorch (CPU only - nhẹ hơn bản GPU) ---
+# Dùng lệnh riêng bên dưới để cài đúng bản CPU:
+# pip install torch torchvision --index-url https://download.pytorch.org/whl/cpu
+torch>=2.0.0
+torchvision>=0.15.0
