@@ -1,0 +1,56 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+*.whl
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Models & large binary files (thường rất nặng, không nên đưa lên GitHub)
+models/
+*.safetensors
+*.ckpt
+*.pth
+*.bin
+*.gguf
+*.pt
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Compiled C/C++
+*.o
+*.a
+*.dylib
+*.dll
+*.exe
+build/
+
+# Logs & temp
+*.log
+*.tmp
+tmp/
+temp/
+output/
+outputs/
+
+# Jupyter Notebooks checkpoints
+.ipynb_checkpoints/
